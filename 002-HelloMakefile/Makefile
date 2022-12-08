@@ -14,3 +14,7 @@ class1.o: class1.cpp class1.h
 
 clean:
 	rm *.o main.exe
+
+# delete products, using in windows
+cleanw:
+	del *.o main.exe

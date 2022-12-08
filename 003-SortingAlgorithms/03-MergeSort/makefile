@@ -6,3 +6,7 @@ main.o: main.cpp
 
 clean:
 	rm *.o main.exe
+
+# delete products, using in windows
+cleanw:
+	del *.o main.exe
